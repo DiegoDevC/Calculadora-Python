@@ -4,19 +4,19 @@ import math
 def volume_esfera(raio):
     return 4/3 * math.pi * raio**3
 
-# retangulo
+# Formula retangulo
 def area_retangulo(base, altura):
     return base * altura
 
-# hipotenusa
+# Formula hipotenusa
 def hipotenusa(cateto1, cateto2):
     return math.sqrt(cateto1**2 + cateto2**2)
 
-# regra de três simples
+# Formula regra de três simples
 def regra_de_tres(valor1, valor2, valor3):
     return valor3 * valor2 / valor1
 
-
+#user
 print("Bem-vindo(a) à calculadora")
 print("Escolha a opção desejada:")
 print("1 - Calcular o volume de uma esfera")
